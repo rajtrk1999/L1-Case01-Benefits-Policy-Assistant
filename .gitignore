@@ -10,7 +10,6 @@ env/
 
 # Environment secrets
 .env
-.env.*
 
 # Chroma vector database
 chroma_db/
@@ -32,6 +31,3 @@ dist/
 # OS files
 .DS_Store
 Thumbs.db
-
-# Environment variables (secrets)
-.env
