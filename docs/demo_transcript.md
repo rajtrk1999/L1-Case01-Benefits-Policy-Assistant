@@ -8,7 +8,7 @@ This transcript captures a few representative employee questions answered by the
 How much does the company match on my 401k and when does it vest?
 
 **Assistant Answer:**
-The company matches 100% of the first 3% of your 401(k) contributions and 50% of the next 2%, for a maximum match of 4% [POL-007]. This match vests over three years, with one-third vesting per year [POL-00
+The company matches 100% of the first 3% of your 401(k) contributions and 50% of the next 2%, for a maximum match of 4% [POL-007]. This match vests over three years, with one-third vesting per year [POL-007]
 
 **Cited Policy IDs:** POL-007
 
