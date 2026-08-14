@@ -1,0 +1,974 @@
+{
+  "summary": {
+    "total_questions": 15,
+    "answered_count": 15,
+    "cited_count": 11,
+    "fallback_handled_count": 0,
+    "success_rate": 1.0,
+    "citation_rate": 0.7333,
+    "fallback_caught_rate": 0.0
+  },
+  "results": [
+    {
+      "question_id": "Q01",
+      "query": "I just got married last month - can I add my spouse to my medical plan now?",
+      "answer": "Yes, you can add your spouse to your medical plan because marriage is considered a qualifying life event [POL-002]. However, you must submit the request to add your spouse within 30 days of your marriage date [POL-002].",
+      "cited_policy_ids": [
+        "POL-002"
+      ],
+      "retrieved_chunk_count": 5,
+      "retrieved_chunk_ids": [
+        "POL-003",
+        "POL-006",
+        "POL-002",
+        "POL-005",
+        "POL-001"
+      ],
+      "evaluation": {
+        "has_answer": true,
+        "has_citation": true,
+        "fallback_caught": false
+      },
+      "raw_response": {
+        "question": "I just got married last month - can I add my spouse to my medical plan now?",
+        "answer": "Yes, you can add your spouse to your medical plan because marriage is considered a qualifying life event [POL-002]. However, you must submit the request to add your spouse within 30 days of your marriage date [POL-002].",
+        "cited_policy_ids": [
+          "POL-002"
+        ],
+        "retrieved_chunks": [
+          {
+            "text": "## POL-003 Medical Plan Tiers\nThree medical tiers are offered:\n- Bronze HDHP: lowest premium, $3,000 individual deductible, HSA-eligible. - Silver PPO: mid premium, $1,500 individual deductible, broad network. - Gold PPO: highest premium, $500 individual deductible, lowest copays. Coverage tiers: Employee Only, Employee+Spouse, Employee+Children, Family.",
+            "policy_id": "POL-003",
+            "page": "",
+            "section": "Medical Plan Tiers",
+            "source": "data\\benefits_policies.md"
+          },
+          {
+            "text": "## POL-006 Flexible Spending Account (FSA)\nHealthcare FSA allows up to $3,200/year pre-tax. Dependent Care FSA allows up to\n$5,000/year. Healthcare FSA funds are use-it-or-lose-it with a $640 carryover\ninto the next plan year; the carryover applies to the Healthcare FSA only. The\nDependent Care FSA has no carryover and no grace period - unused funds are\nforfeited at plan year end. You cannot enroll in a Healthcare FSA and an HSA in\nthe same year.",
+            "policy_id": "POL-006",
+            "page": "",
+            "section": "Flexible Spending Account (FSA)",
+            "source": "data\\benefits_policies.md"
+          },
+          {
+            "text": "## POL-002 Open Enrollment\nAnnual open enrollment runs the first two weeks of November, effective January 1. Outside open enrollment, changes require a qualifying life event (marriage,\nbirth/adoption, loss of other coverage) and must be submitted within 30 days.",
+            "policy_id": "POL-002",
+            "page": "",
+            "section": "Open Enrollment",
+            "source": "data\\benefits_policies.md"
+          },
+          {
+            "text": "## POL-005 Health Savings Account (HSA)\nAvailable only with the Bronze HDHP. Employer seeds $750 (individual) / $1,500\n(family) per year. 2025 IRS contribution limits apply. Funds roll over and are\nportable if you leave.",
+            "policy_id": "POL-005",
+            "page": "",
+            "section": "Health Savings Account (HSA)",
+            "source": "data\\benefits_policies.md"
+          },
+          {
+            "text": "## POL-001 Benefits Eligibility\nFull-time employees (30+ scheduled hours/week) are eligible for all health and\nwelfare benefits on the first of the month following their hire date. Part-time\nemployees scheduled 20-29 hours/week are eligible for dental, vision, and the\nretirement plan only. Contractors and interns are not eligible.",
+            "policy_id": "POL-001",
+            "page": "",
+            "section": "Benefits Eligibility",
+            "source": "data\\benefits_policies.md"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "Q02",
+      "query": "How much does the company match on my 401k and when does it vest?",
+      "answer": "The company's 401k match is 10",
+      "cited_policy_ids": [],
+      "retrieved_chunk_count": 5,
+      "retrieved_chunk_ids": [
+        "POL-007",
+        "POL-015",
+        "POL-008",
+        "POL-005",
+        "POL-003"
+      ],
+      "evaluation": {
+        "has_answer": true,
+        "has_citation": false,
+        "fallback_caught": false
+      },
+      "raw_response": {
+        "question": "How much does the company match on my 401k and when does it vest?",
+        "answer": "The company's 401k match is 10",
+        "cited_policy_ids": [],
+        "retrieved_chunks": [
+          {
+            "text": "## POL-007 401(k) Retirement & Match\nEmployees may contribute pre-tax or Roth. Employer matches 100% of the first 3%\nand 50% of the next 2%, for a maximum 4% match. Match vests over three years\n(one-third per year). Auto-enrollment at 4% applies after 60 days.",
+            "policy_id": "POL-007",
+            "page": "",
+            "section": "401(k) Retirement & Match",
+            "source": "data\\benefits_policies.md"
+          },
+          {
+            "text": "## POL-015 401(k) Employer Match - 2026 Update\nEffective January 1, 2026, the employer match changes to 100% of the first 4%\nof eligible pay (up from 3%), and vesting becomes immediate upon the match\nbeing credited (up from the three-year graded schedule). This policy supersedes\nthe match percentage and vesting terms described in POL-007 as of the effective\ndate; the auto-enrollment default and the pre-tax/Roth contribution choice in\nPOL-007 are unchanged and continue to apply.",
+            "policy_id": "POL-015",
+            "page": "",
+            "section": "401(k) Employer Match - 2026 Update",
+            "source": "data\\benefits_policies.md"
+          },
+          {
+            "text": "## POL-008 Paid Time Off (PTO)\nAccrual is tenure-based: 0-2 yrs = 15 days/yr, 3-5 yrs = 20 days/yr, 6+ yrs =\n25 days/yr. Maximum carryover is 5 days into the next calendar year. PTO accrues\neach pay period and is available as it accrues.",
+            "policy_id": "POL-008",
+            "page": "",
+            "section": "Paid Time Off (PTO)",
+            "source": "data\\benefits_policies.md"
+          },
+          {
+            "text": "## POL-005 Health Savings Account (HSA)\nAvailable only with the Bronze HDHP. Employer seeds $750 (individual) / $1,500\n(family) per year. 2025 IRS contribution limits apply. Funds roll over and are\nportable if you leave.",
+            "policy_id": "POL-005",
+            "page": "",
+            "section": "Health Savings Account (HSA)",
+            "source": "data\\benefits_policies.md"
+          },
+          {
+            "text": "## POL-003 Medical Plan Tiers\nThree medical tiers are offered:\n- Bronze HDHP: lowest premium, $3,000 individual deductible, HSA-eligible. - Silver PPO: mid premium, $1,500 individual deductible, broad network. - Gold PPO: highest premium, $500 individual deductible, lowest copays. Coverage tiers: Employee Only, Employee+Spouse, Employee+Children, Family.",
+            "policy_id": "POL-003",
+            "page": "",
+            "section": "Medical Plan Tiers",
+            "source": "data\\benefits_policies.md"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "Q03",
+      "query": "I'm having a baby in the spring - how many weeks of paid parental leave do I get?",
+      "answer": "You will receive either 12 weeks or 4 weeks of paid parental leave, depending on your role as a caregiver. Primary caregivers receive 12 weeks of paid parental leave at 100% pay, while secondary caregivers receive 4 weeks [POL-010]. This leave is available for birth and must be used within the first 12 months of the event [POL-010].",
+      "cited_policy_ids": [
+        "POL-010"
+      ],
+      "retrieved_chunk_count": 5,
+      "retrieved_chunk_ids": [
+        "POL-010",
+        "POL-016",
+        "POL-017",
+        "POL-008",
+        "POL-012"
+      ],
+      "evaluation": {
+        "has_answer": true,
+        "has_citation": true,
+        "fallback_caught": false
+      },
+      "raw_response": {
+        "question": "I'm having a baby in the spring - how many weeks of paid parental leave do I get?",
+        "answer": "You will receive either 12 weeks or 4 weeks of paid parental leave, depending on your role as a caregiver. Primary caregivers receive 12 weeks of paid parental leave at 100% pay, while secondary caregivers receive 4 weeks [POL-010]. This leave is available for birth and must be used within the first 12 months of the event [POL-010].",
+        "cited_policy_ids": [
+          "POL-010"
+        ],
+        "retrieved_chunks": [
+          {
+            "text": "## POL-010 Parental Leave\n12 weeks of paid parental leave at 100% pay for the primary caregiver and 4 weeks\nfor the secondary caregiver, available for birth, adoption, or foster placement,\nwithin the first 12 months of the event. Runs concurrently with FMLA.",
+            "policy_id": "POL-010",
+            "page": "",
+            "section": "Parental Leave",
+            "source": "data\\benefits_policies.md"
+          },
+          {
+            "text": "## POL-016 Sabbatical Leave\nEmployees become eligible for an unpaid four-week sabbatical after five years\nof continuous full-time service, available once every seven years, intended for\npersonal or professional development. Sabbatical requests are reviewed by People Operations and approved only for\nemployees who have completed at least seven years of continuous full-time\nservice, subject to manager approval and business needs at the time of the\nrequest.",
+            "policy_id": "POL-016",
+            "page": "",
+            "section": "Sabbatical Leave",
+            "source": "data\\benefits_policies.md"
+          },
+          {
+            "text": "## POL-017 Bereavement Leave\nUp to 5 paid days for the death of an immediate family member (spouse, child,\nparent, or sibling). Up to 2 paid days for extended family (grandparent,\nparent-in-law, or sibling-in-law). Requests are submitted to People Operations\nwithin 30 days of the event; no documentation is required for the first request\nin a calendar year.",
+            "policy_id": "POL-017",
+            "page": "",
+            "section": "Bereavement Leave",
+            "source": "data\\benefits_policies.md"
+          },
+          {
+            "text": "## POL-008 Paid Time Off (PTO)\nAccrual is tenure-based: 0-2 yrs = 15 days/yr, 3-5 yrs = 20 days/yr, 6+ yrs =\n25 days/yr. Maximum carryover is 5 days into the next calendar year. PTO accrues\neach pay period and is available as it accrues.",
+            "policy_id": "POL-008",
+            "page": "",
+            "section": "Paid Time Off (PTO)",
+            "source": "data\\benefits_policies.md"
+          },
+          {
+            "text": "## POL-012 Life & Disability\nCompany-paid basic life insurance equals 1x annual salary. Short-term disability\npays 60% of salary for up to 12 weeks after a 7-day waiting period. Long-term\ndisability pays 60% after 90 days.",
+            "policy_id": "POL-012",
+            "page": "",
+            "section": "Life & Disability",
+            "source": "data\\benefits_policies.md"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "Q04",
+      "query": "Can I have both an HSA and a healthcare FSA at the same time?",
+      "answer": "No, you cannot enroll in a Healthcare Flexible Spending Account (FSA) and a Health Savings Account (HSA) in the same year [POL-006].",
+      "cited_policy_ids": [
+        "POL-006"
+      ],
+      "retrieved_chunk_count": 5,
+      "retrieved_chunk_ids": [
+        "POL-006",
+        "POL-005",
+        "POL-003",
+        "POL-001",
+        "POL-010"
+      ],
+      "evaluation": {
+        "has_answer": true,
+        "has_citation": true,
+        "fallback_caught": false
+      },
+      "raw_response": {
+        "question": "Can I have both an HSA and a healthcare FSA at the same time?",
+        "answer": "No, you cannot enroll in a Healthcare Flexible Spending Account (FSA) and a Health Savings Account (HSA) in the same year [POL-006].",
+        "cited_policy_ids": [
+          "POL-006"
+        ],
+        "retrieved_chunks": [
+          {
+            "text": "## POL-006 Flexible Spending Account (FSA)\nHealthcare FSA allows up to $3,200/year pre-tax. Dependent Care FSA allows up to\n$5,000/year. Healthcare FSA funds are use-it-or-lose-it with a $640 carryover\ninto the next plan year; the carryover applies to the Healthcare FSA only. The\nDependent Care FSA has no carryover and no grace period - unused funds are\nforfeited at plan year end. You cannot enroll in a Healthcare FSA and an HSA in\nthe same year.",
+            "policy_id": "POL-006",
+            "page": "",
+            "section": "Flexible Spending Account (FSA)",
+            "source": "data\\benefits_policies.md"
+          },
+          {
+            "text": "## POL-005 Health Savings Account (HSA)\nAvailable only with the Bronze HDHP. Employer seeds $750 (individual) / $1,500\n(family) per year. 2025 IRS contribution limits apply. Funds roll over and are\nportable if you leave.",
+            "policy_id": "POL-005",
+            "page": "",
+            "section": "Health Savings Account (HSA)",
+            "source": "data\\benefits_policies.md"
+          },
+          {
+            "text": "## POL-003 Medical Plan Tiers\nThree medical tiers are offered:\n- Bronze HDHP: lowest premium, $3,000 individual deductible, HSA-eligible. - Silver PPO: mid premium, $1,500 individual deductible, broad network. - Gold PPO: highest premium, $500 individual deductible, lowest copays. Coverage tiers: Employee Only, Employee+Spouse, Employee+Children, Family.",
+            "policy_id": "POL-003",
+            "page": "",
+            "section": "Medical Plan Tiers",
+            "source": "data\\benefits_policies.md"
+          },
+          {
+            "text": "## POL-001 Benefits Eligibility\nFull-time employees (30+ scheduled hours/week) are eligible for all health and\nwelfare benefits on the first of the month following their hire date. Part-time\nemployees scheduled 20-29 hours/week are eligible for dental, vision, and the\nretirement plan only. Contractors and interns are not eligible.",
+            "policy_id": "POL-001",
+            "page": "",
+            "section": "Benefits Eligibility",
+            "source": "data\\benefits_policies.md"
+          },
+          {
+            "text": "## POL-010 Parental Leave\n12 weeks of paid parental leave at 100% pay for the primary caregiver and 4 weeks\nfor the secondary caregiver, available for birth, adoption, or foster placement,\nwithin the first 12 months of the event. Runs concurrently with FMLA.",
+            "policy_id": "POL-010",
+            "page": "",
+            "section": "Parental Leave",
+            "source": "data\\benefits_policies.md"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "Q05",
+      "query": "I work 24 hours a week - which benefits am I eligible for?",
+      "answer": "Based on the provided policy excerpts, if you work 24",
+      "cited_policy_ids": [],
+      "retrieved_chunk_count": 5,
+      "retrieved_chunk_ids": [
+        "POL-001",
+        "POL-012",
+        "POL-016",
+        "POL-011",
+        "POL-018"
+      ],
+      "evaluation": {
+        "has_answer": true,
+        "has_citation": false,
+        "fallback_caught": false
+      },
+      "raw_response": {
+        "question": "I work 24 hours a week - which benefits am I eligible for?",
+        "answer": "Based on the provided policy excerpts, if you work 24",
+        "cited_policy_ids": [],
+        "retrieved_chunks": [
+          {
+            "text": "## POL-001 Benefits Eligibility\nFull-time employees (30+ scheduled hours/week) are eligible for all health and\nwelfare benefits on the first of the month following their hire date. Part-time\nemployees scheduled 20-29 hours/week are eligible for dental, vision, and the\nretirement plan only. Contractors and interns are not eligible.",
+            "policy_id": "POL-001",
+            "page": "",
+            "section": "Benefits Eligibility",
+            "source": "data\\benefits_policies.md"
+          },
+          {
+            "text": "## POL-012 Life & Disability\nCompany-paid basic life insurance equals 1x annual salary. Short-term disability\npays 60% of salary for up to 12 weeks after a 7-day waiting period. Long-term\ndisability pays 60% after 90 days.",
+            "policy_id": "POL-012",
+            "page": "",
+            "section": "Life & Disability",
+            "source": "data\\benefits_policies.md"
+          },
+          {
+            "text": "## POL-016 Sabbatical Leave\nEmployees become eligible for an unpaid four-week sabbatical after five years\nof continuous full-time service, available once every seven years, intended for\npersonal or professional development. Sabbatical requests are reviewed by People Operations and approved only for\nemployees who have completed at least seven years of continuous full-time\nservice, subject to manager approval and business needs at the time of the\nrequest.",
+            "policy_id": "POL-016",
+            "page": "",
+            "section": "Sabbatical Leave",
+            "source": "data\\benefits_policies.md"
+          },
+          {
+            "text": "## POL-011 Remote Work Stipend\nFully remote and hybrid employees receive a one-time $500 home-office setup\nstipend and $50/month toward internet. Reimbursed through the expense system with\na receipt. Not available to on-site-only staff.",
+            "policy_id": "POL-011",
+            "page": "",
+            "section": "Remote Work Stipend",
+            "source": "data\\benefits_policies.md"
+          },
+          {
+            "text": "## POL-018 Jury Duty & Civic Leave\nEmployees called for jury duty or a subpoenaed court appearance receive paid\nleave for the duration of the service; the company pays the difference between\nthe court's stipend and the employee's normal pay - it does not pay full salary\nin addition to the stipend. Separately, employees receive up to 2 paid hours of\nvoting leave if the polls are not open for at least 3 consecutive hours before\nor after their scheduled shift.",
+            "policy_id": "POL-018",
+            "page": "",
+            "section": "Jury Duty & Civic Leave",
+            "source": "data\\benefits_policies.md"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "Q06",
+      "query": "How many PTO days do I accrue after 7 years here and how much carries over?",
+      "answer": "After 7 years of employment, you accrue 25 PTO days per year [POL-008]. You can carry over a maximum of 5 unused PTO days into the next calendar year [POL-008].",
+      "cited_policy_ids": [
+        "POL-008"
+      ],
+      "retrieved_chunk_count": 5,
+      "retrieved_chunk_ids": [
+        "POL-008",
+        "POL-009",
+        "POL-019",
+        "POL-010",
+        "POL-014"
+      ],
+      "evaluation": {
+        "has_answer": true,
+        "has_citation": true,
+        "fallback_caught": false
+      },
+      "raw_response": {
+        "question": "How many PTO days do I accrue after 7 years here and how much carries over?",
+        "answer": "After 7 years of employment, you accrue 25 PTO days per year [POL-008]. You can carry over a maximum of 5 unused PTO days into the next calendar year [POL-008].",
+        "cited_policy_ids": [
+          "POL-008"
+        ],
+        "retrieved_chunks": [
+          {
+            "text": "## POL-008 Paid Time Off (PTO)\nAccrual is tenure-based: 0-2 yrs = 15 days/yr, 3-5 yrs = 20 days/yr, 6+ yrs =\n25 days/yr. Maximum carryover is 5 days into the next calendar year. PTO accrues\neach pay period and is available as it accrues.",
+            "policy_id": "POL-008",
+            "page": "",
+            "section": "Paid Time Off (PTO)",
+            "source": "data\\benefits_policies.md"
+          },
+          {
+            "text": "## POL-009 Sick & Safe Leave\nSeparate from PTO: 6 paid sick days per year, front-loaded January 1. Unused sick\ndays do not roll over and are not paid out at termination.",
+            "policy_id": "POL-009",
+            "page": "",
+            "section": "Sick & Safe Leave",
+            "source": "data\\benefits_policies.md"
+          },
+          {
+            "text": "## POL-019 Relocation Assistance\nEmployees relocating more than 50 miles for a company-initiated transfer receive\na lump-sum relocation assistance payment of up to $7,500, which is taxable\nincome. If the employee voluntarily terminates employment within 12 months of\nthe relocation, the assistance must be repaid on a pro-rated basis: one twelfth\nof the total is forgiven for each completed month of service after the\nrelocation date.",
+            "policy_id": "POL-019",
+            "page": "",
+            "section": "Relocation Assistance",
+            "source": "data\\benefits_policies.md"
+          },
+          {
+            "text": "## POL-010 Parental Leave\n12 weeks of paid parental leave at 100% pay for the primary caregiver and 4 weeks\nfor the secondary caregiver, available for birth, adoption, or foster placement,\nwithin the first 12 months of the event. Runs concurrently with FMLA.",
+            "policy_id": "POL-010",
+            "page": "",
+            "section": "Parental Leave",
+            "source": "data\\benefits_policies.md"
+          },
+          {
+            "text": "## POL-014 Tuition & Learning Reimbursement\nUp to $5,250/year for accredited coursework or approved certifications with a\ngrade of B or better. Requires manager pre-approval and a one-year stay agreement.",
+            "policy_id": "POL-014",
+            "page": "",
+            "section": "Tuition & Learning Reimbursement",
+            "source": "data\\benefits_policies.md"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "Q07",
+      "query": "Does the company help pay for my home internet if I work remotely?",
+      "answer": "Yes, if you are a fully remote or hybrid employee, the company provides $50 per month toward your home internet costs [POL-011]. This is reimbursed through the expense system with a receipt [POL-011].",
+      "cited_policy_ids": [
+        "POL-011"
+      ],
+      "retrieved_chunk_count": 5,
+      "retrieved_chunk_ids": [
+        "POL-011",
+        "POL-013",
+        "POL-001",
+        "POL-019",
+        "POL-012"
+      ],
+      "evaluation": {
+        "has_answer": true,
+        "has_citation": true,
+        "fallback_caught": false
+      },
+      "raw_response": {
+        "question": "Does the company help pay for my home internet if I work remotely?",
+        "answer": "Yes, if you are a fully remote or hybrid employee, the company provides $50 per month toward your home internet costs [POL-011]. This is reimbursed through the expense system with a receipt [POL-011].",
+        "cited_policy_ids": [
+          "POL-011"
+        ],
+        "retrieved_chunks": [
+          {
+            "text": "## POL-011 Remote Work Stipend\nFully remote and hybrid employees receive a one-time $500 home-office setup\nstipend and $50/month toward internet. Reimbursed through the expense system with\na receipt. Not available to on-site-only staff.",
+            "policy_id": "POL-011",
+            "page": "",
+            "section": "Remote Work Stipend",
+            "source": "data\\benefits_policies.md"
+          },
+          {
+            "text": "## POL-013 Employee Assistance Program (EAP)\nAll employees and household members get 8 free confidential counseling sessions\nper issue per year, plus legal and financial consultations. No enrollment needed.",
+            "policy_id": "POL-013",
+            "page": "",
+            "section": "Employee Assistance Program (EAP)",
+            "source": "data\\benefits_policies.md"
+          },
+          {
+            "text": "## POL-001 Benefits Eligibility\nFull-time employees (30+ scheduled hours/week) are eligible for all health and\nwelfare benefits on the first of the month following their hire date. Part-time\nemployees scheduled 20-29 hours/week are eligible for dental, vision, and the\nretirement plan only. Contractors and interns are not eligible.",
+            "policy_id": "POL-001",
+            "page": "",
+            "section": "Benefits Eligibility",
+            "source": "data\\benefits_policies.md"
+          },
+          {
+            "text": "## POL-019 Relocation Assistance\nEmployees relocating more than 50 miles for a company-initiated transfer receive\na lump-sum relocation assistance payment of up to $7,500, which is taxable\nincome. If the employee voluntarily terminates employment within 12 months of\nthe relocation, the assistance must be repaid on a pro-rated basis: one twelfth\nof the total is forgiven for each completed month of service after the\nrelocation date.",
+            "policy_id": "POL-019",
+            "page": "",
+            "section": "Relocation Assistance",
+            "source": "data\\benefits_policies.md"
+          },
+          {
+            "text": "## POL-012 Life & Disability\nCompany-paid basic life insurance equals 1x annual salary. Short-term disability\npays 60% of salary for up to 12 weeks after a 7-day waiting period. Long-term\ndisability pays 60% after 90 days.",
+            "policy_id": "POL-012",
+            "page": "",
+            "section": "Life & Disability",
+            "source": "data\\benefits_policies.md"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "Q08",
+      "query": "What is the deductible on the Silver PPO plan?",
+      "answer": "The individual deductible for the Silver PPO plan is $1,500 [POL-003].",
+      "cited_policy_ids": [
+        "POL-003"
+      ],
+      "retrieved_chunk_count": 5,
+      "retrieved_chunk_ids": [
+        "POL-003",
+        "POL-008",
+        "POL-004",
+        "POL-005",
+        "POL-009"
+      ],
+      "evaluation": {
+        "has_answer": true,
+        "has_citation": true,
+        "fallback_caught": false
+      },
+      "raw_response": {
+        "question": "What is the deductible on the Silver PPO plan?",
+        "answer": "The individual deductible for the Silver PPO plan is $1,500 [POL-003].",
+        "cited_policy_ids": [
+          "POL-003"
+        ],
+        "retrieved_chunks": [
+          {
+            "text": "## POL-003 Medical Plan Tiers\nThree medical tiers are offered:\n- Bronze HDHP: lowest premium, $3,000 individual deductible, HSA-eligible. - Silver PPO: mid premium, $1,500 individual deductible, broad network. - Gold PPO: highest premium, $500 individual deductible, lowest copays. Coverage tiers: Employee Only, Employee+Spouse, Employee+Children, Family.",
+            "policy_id": "POL-003",
+            "page": "",
+            "section": "Medical Plan Tiers",
+            "source": "data\\benefits_policies.md"
+          },
+          {
+            "text": "## POL-008 Paid Time Off (PTO)\nAccrual is tenure-based: 0-2 yrs = 15 days/yr, 3-5 yrs = 20 days/yr, 6+ yrs =\n25 days/yr. Maximum carryover is 5 days into the next calendar year. PTO accrues\neach pay period and is available as it accrues.",
+            "policy_id": "POL-008",
+            "page": "",
+            "section": "Paid Time Off (PTO)",
+            "source": "data\\benefits_policies.md"
+          },
+          {
+            "text": "## POL-004 Dental & Vision\nDental covers 100% preventive, 80% basic, 50% major, with a $2,000 annual max. Orthodontia has a separate $1,500 lifetime max. Vision covers one exam per year\nand a $150 frame allowance every 24 months.",
+            "policy_id": "POL-004",
+            "page": "",
+            "section": "Dental & Vision",
+            "source": "data\\benefits_policies.md"
+          },
+          {
+            "text": "## POL-005 Health Savings Account (HSA)\nAvailable only with the Bronze HDHP. Employer seeds $750 (individual) / $1,500\n(family) per year. 2025 IRS contribution limits apply. Funds roll over and are\nportable if you leave.",
+            "policy_id": "POL-005",
+            "page": "",
+            "section": "Health Savings Account (HSA)",
+            "source": "data\\benefits_policies.md"
+          },
+          {
+            "text": "## POL-009 Sick & Safe Leave\nSeparate from PTO: 6 paid sick days per year, front-loaded January 1. Unused sick\ndays do not roll over and are not paid out at termination.",
+            "policy_id": "POL-009",
+            "page": "",
+            "section": "Sick & Safe Leave",
+            "source": "data\\benefits_policies.md"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "Q09",
+      "query": "Is there a lifetime maximum for my kid's braces under the dental plan?",
+      "answer": "Yes, under the dental plan, orthodontia (braces) has a separate $1,500 lifetime maximum [POL-004].",
+      "cited_policy_ids": [
+        "POL-004"
+      ],
+      "retrieved_chunk_count": 5,
+      "retrieved_chunk_ids": [
+        "POL-004",
+        "POL-001",
+        "POL-012",
+        "POL-010",
+        "POL-003"
+      ],
+      "evaluation": {
+        "has_answer": true,
+        "has_citation": true,
+        "fallback_caught": false
+      },
+      "raw_response": {
+        "question": "Is there a lifetime maximum for my kid's braces under the dental plan?",
+        "answer": "Yes, under the dental plan, orthodontia (braces) has a separate $1,500 lifetime maximum [POL-004].",
+        "cited_policy_ids": [
+          "POL-004"
+        ],
+        "retrieved_chunks": [
+          {
+            "text": "## POL-004 Dental & Vision\nDental covers 100% preventive, 80% basic, 50% major, with a $2,000 annual max. Orthodontia has a separate $1,500 lifetime max. Vision covers one exam per year\nand a $150 frame allowance every 24 months.",
+            "policy_id": "POL-004",
+            "page": "",
+            "section": "Dental & Vision",
+            "source": "data\\benefits_policies.md"
+          },
+          {
+            "text": "## POL-001 Benefits Eligibility\nFull-time employees (30+ scheduled hours/week) are eligible for all health and\nwelfare benefits on the first of the month following their hire date. Part-time\nemployees scheduled 20-29 hours/week are eligible for dental, vision, and the\nretirement plan only. Contractors and interns are not eligible.",
+            "policy_id": "POL-001",
+            "page": "",
+            "section": "Benefits Eligibility",
+            "source": "data\\benefits_policies.md"
+          },
+          {
+            "text": "## POL-012 Life & Disability\nCompany-paid basic life insurance equals 1x annual salary. Short-term disability\npays 60% of salary for up to 12 weeks after a 7-day waiting period. Long-term\ndisability pays 60% after 90 days.",
+            "policy_id": "POL-012",
+            "page": "",
+            "section": "Life & Disability",
+            "source": "data\\benefits_policies.md"
+          },
+          {
+            "text": "## POL-010 Parental Leave\n12 weeks of paid parental leave at 100% pay for the primary caregiver and 4 weeks\nfor the secondary caregiver, available for birth, adoption, or foster placement,\nwithin the first 12 months of the event. Runs concurrently with FMLA.",
+            "policy_id": "POL-010",
+            "page": "",
+            "section": "Parental Leave",
+            "source": "data\\benefits_policies.md"
+          },
+          {
+            "text": "## POL-003 Medical Plan Tiers\nThree medical tiers are offered:\n- Bronze HDHP: lowest premium, $3,000 individual deductible, HSA-eligible. - Silver PPO: mid premium, $1,500 individual deductible, broad network. - Gold PPO: highest premium, $500 individual deductible, lowest copays. Coverage tiers: Employee Only, Employee+Spouse, Employee+Children, Family.",
+            "policy_id": "POL-003",
+            "page": "",
+            "section": "Medical Plan Tiers",
+            "source": "data\\benefits_policies.md"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "Q10",
+      "query": "Can I get reimbursed for a cloud certification course?",
+      "answer": "Yes, you may be eligible for reimbursement for an approved certification, which could include a cloud certification course. The Tuition & Learning Reimbursement policy allows up to $5,250 per year for approved certifications, provided you receive a grade of B or better. It also requires manager pre-approval and a one-year stay agreement [POL-014].",
+      "cited_policy_ids": [
+        "POL-014"
+      ],
+      "retrieved_chunk_count": 5,
+      "retrieved_chunk_ids": [
+        "POL-014",
+        "POL-013",
+        "POL-003",
+        "POL-005",
+        "POL-006"
+      ],
+      "evaluation": {
+        "has_answer": true,
+        "has_citation": true,
+        "fallback_caught": false
+      },
+      "raw_response": {
+        "question": "Can I get reimbursed for a cloud certification course?",
+        "answer": "Yes, you may be eligible for reimbursement for an approved certification, which could include a cloud certification course. The Tuition & Learning Reimbursement policy allows up to $5,250 per year for approved certifications, provided you receive a grade of B or better. It also requires manager pre-approval and a one-year stay agreement [POL-014].",
+        "cited_policy_ids": [
+          "POL-014"
+        ],
+        "retrieved_chunks": [
+          {
+            "text": "## POL-014 Tuition & Learning Reimbursement\nUp to $5,250/year for accredited coursework or approved certifications with a\ngrade of B or better. Requires manager pre-approval and a one-year stay agreement.",
+            "policy_id": "POL-014",
+            "page": "",
+            "section": "Tuition & Learning Reimbursement",
+            "source": "data\\benefits_policies.md"
+          },
+          {
+            "text": "## POL-013 Employee Assistance Program (EAP)\nAll employees and household members get 8 free confidential counseling sessions\nper issue per year, plus legal and financial consultations. No enrollment needed.",
+            "policy_id": "POL-013",
+            "page": "",
+            "section": "Employee Assistance Program (EAP)",
+            "source": "data\\benefits_policies.md"
+          },
+          {
+            "text": "## POL-003 Medical Plan Tiers\nThree medical tiers are offered:\n- Bronze HDHP: lowest premium, $3,000 individual deductible, HSA-eligible. - Silver PPO: mid premium, $1,500 individual deductible, broad network. - Gold PPO: highest premium, $500 individual deductible, lowest copays. Coverage tiers: Employee Only, Employee+Spouse, Employee+Children, Family.",
+            "policy_id": "POL-003",
+            "page": "",
+            "section": "Medical Plan Tiers",
+            "source": "data\\benefits_policies.md"
+          },
+          {
+            "text": "## POL-005 Health Savings Account (HSA)\nAvailable only with the Bronze HDHP. Employer seeds $750 (individual) / $1,500\n(family) per year. 2025 IRS contribution limits apply. Funds roll over and are\nportable if you leave.",
+            "policy_id": "POL-005",
+            "page": "",
+            "section": "Health Savings Account (HSA)",
+            "source": "data\\benefits_policies.md"
+          },
+          {
+            "text": "## POL-006 Flexible Spending Account (FSA)\nHealthcare FSA allows up to $3,200/year pre-tax. Dependent Care FSA allows up to\n$5,000/year. Healthcare FSA funds are use-it-or-lose-it with a $640 carryover\ninto the next plan year; the carryover applies to the Healthcare FSA only. The\nDependent Care FSA has no carryover and no grace period - unused funds are\nforfeited at plan year end. You cannot enroll in a Healthcare FSA and an HSA in\nthe same year.",
+            "policy_id": "POL-006",
+            "page": "",
+            "section": "Flexible Spending Account (FSA)",
+            "source": "data\\benefits_policies.md"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "Q11",
+      "query": "What will the 401k match and vesting schedule be starting next year?",
+      "answer": "Starting January 1, 2026, the",
+      "cited_policy_ids": [],
+      "retrieved_chunk_count": 5,
+      "retrieved_chunk_ids": [
+        "POL-015",
+        "POL-007",
+        "POL-015",
+        "POL-008",
+        "POL-005"
+      ],
+      "evaluation": {
+        "has_answer": true,
+        "has_citation": false,
+        "fallback_caught": false
+      },
+      "raw_response": {
+        "question": "What will the 401k match and vesting schedule be starting next year?",
+        "answer": "Starting January 1, 2026, the",
+        "cited_policy_ids": [],
+        "retrieved_chunks": [
+          {
+            "text": "## POL-015 401(k) Employer Match - 2026 Update\nEffective January 1, 2026, the employer match changes to 100% of the first 4%\nof eligible pay (up from 3%), and vesting becomes immediate upon the match\nbeing credited (up from the three-year graded schedule). This policy supersedes\nthe match percentage and vesting terms described in POL-007 as of the effective\ndate; the auto-enrollment default and the pre-tax/Roth contribution choice in\nPOL-007 are unchanged and continue to apply.",
+            "policy_id": "POL-015",
+            "page": "",
+            "section": "401(k) Employer Match - 2026 Update",
+            "source": "data\\benefits_policies.md"
+          },
+          {
+            "text": "## POL-007 401(k) Retirement & Match\nEmployees may contribute pre-tax or Roth. Employer matches 100% of the first 3%\nand 50% of the next 2%, for a maximum 4% match. Match vests over three years\n(one-third per year). Auto-enrollment at 4% applies after 60 days.",
+            "policy_id": "POL-007",
+            "page": "",
+            "section": "401(k) Retirement & Match",
+            "source": "data\\benefits_policies.md"
+          },
+          {
+            "text": "Before January 1, 2026, POL-007's\nmatch and vesting terms remain in effect.",
+            "policy_id": "POL-015",
+            "page": "",
+            "section": "401(k) Employer Match - 2026 Update",
+            "source": "data\\benefits_policies.md"
+          },
+          {
+            "text": "## POL-008 Paid Time Off (PTO)\nAccrual is tenure-based: 0-2 yrs = 15 days/yr, 3-5 yrs = 20 days/yr, 6+ yrs =\n25 days/yr. Maximum carryover is 5 days into the next calendar year. PTO accrues\neach pay period and is available as it accrues.",
+            "policy_id": "POL-008",
+            "page": "",
+            "section": "Paid Time Off (PTO)",
+            "source": "data\\benefits_policies.md"
+          },
+          {
+            "text": "## POL-005 Health Savings Account (HSA)\nAvailable only with the Bronze HDHP. Employer seeds $750 (individual) / $1,500\n(family) per year. 2025 IRS contribution limits apply. Funds roll over and are\nportable if you leave.",
+            "policy_id": "POL-005",
+            "page": "",
+            "section": "Health Savings Account (HSA)",
+            "source": "data\\benefits_policies.md"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "Q12",
+      "query": "How many years of service do I need before I can take a sabbatical?",
+      "answer": "You become eligible for a sabbatical after five years of continuous full",
+      "cited_policy_ids": [],
+      "retrieved_chunk_count": 5,
+      "retrieved_chunk_ids": [
+        "POL-016",
+        "POL-001",
+        "POL-010",
+        "POL-014",
+        "POL-002"
+      ],
+      "evaluation": {
+        "has_answer": true,
+        "has_citation": false,
+        "fallback_caught": false
+      },
+      "raw_response": {
+        "question": "How many years of service do I need before I can take a sabbatical?",
+        "answer": "You become eligible for a sabbatical after five years of continuous full",
+        "cited_policy_ids": [],
+        "retrieved_chunks": [
+          {
+            "text": "## POL-016 Sabbatical Leave\nEmployees become eligible for an unpaid four-week sabbatical after five years\nof continuous full-time service, available once every seven years, intended for\npersonal or professional development. Sabbatical requests are reviewed by People Operations and approved only for\nemployees who have completed at least seven years of continuous full-time\nservice, subject to manager approval and business needs at the time of the\nrequest.",
+            "policy_id": "POL-016",
+            "page": "",
+            "section": "Sabbatical Leave",
+            "source": "data\\benefits_policies.md"
+          },
+          {
+            "text": "## POL-001 Benefits Eligibility\nFull-time employees (30+ scheduled hours/week) are eligible for all health and\nwelfare benefits on the first of the month following their hire date. Part-time\nemployees scheduled 20-29 hours/week are eligible for dental, vision, and the\nretirement plan only. Contractors and interns are not eligible.",
+            "policy_id": "POL-001",
+            "page": "",
+            "section": "Benefits Eligibility",
+            "source": "data\\benefits_policies.md"
+          },
+          {
+            "text": "## POL-010 Parental Leave\n12 weeks of paid parental leave at 100% pay for the primary caregiver and 4 weeks\nfor the secondary caregiver, available for birth, adoption, or foster placement,\nwithin the first 12 months of the event. Runs concurrently with FMLA.",
+            "policy_id": "POL-010",
+            "page": "",
+            "section": "Parental Leave",
+            "source": "data\\benefits_policies.md"
+          },
+          {
+            "text": "## POL-014 Tuition & Learning Reimbursement\nUp to $5,250/year for accredited coursework or approved certifications with a\ngrade of B or better. Requires manager pre-approval and a one-year stay agreement.",
+            "policy_id": "POL-014",
+            "page": "",
+            "section": "Tuition & Learning Reimbursement",
+            "source": "data\\benefits_policies.md"
+          },
+          {
+            "text": "## POL-002 Open Enrollment\nAnnual open enrollment runs the first two weeks of November, effective January 1. Outside open enrollment, changes require a qualifying life event (marriage,\nbirth/adoption, loss of other coverage) and must be submitted within 30 days.",
+            "policy_id": "POL-002",
+            "page": "",
+            "section": "Open Enrollment",
+            "source": "data\\benefits_policies.md"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "Q13",
+      "query": "If I take parental leave, does my PTO keep accruing while I'm out?",
+      "answer": "The provided policy excerpts do not specify whether PTO continues to accrue while an employee is on parental leave. [POL-008] outlines how PTO accrues, and [POL-010] describes parental leave, but neither policy addresses the interaction between the two regarding accrual during leave.",
+      "cited_policy_ids": [
+        "POL-008",
+        "POL-010"
+      ],
+      "retrieved_chunk_count": 5,
+      "retrieved_chunk_ids": [
+        "POL-008",
+        "POL-010",
+        "POL-009",
+        "POL-018",
+        "POL-016"
+      ],
+      "evaluation": {
+        "has_answer": true,
+        "has_citation": true,
+        "fallback_caught": false
+      },
+      "raw_response": {
+        "question": "If I take parental leave, does my PTO keep accruing while I'm out?",
+        "answer": "The provided policy excerpts do not specify whether PTO continues to accrue while an employee is on parental leave. [POL-008] outlines how PTO accrues, and [POL-010] describes parental leave, but neither policy addresses the interaction between the two regarding accrual during leave.",
+        "cited_policy_ids": [
+          "POL-008",
+          "POL-010"
+        ],
+        "retrieved_chunks": [
+          {
+            "text": "## POL-008 Paid Time Off (PTO)\nAccrual is tenure-based: 0-2 yrs = 15 days/yr, 3-5 yrs = 20 days/yr, 6+ yrs =\n25 days/yr. Maximum carryover is 5 days into the next calendar year. PTO accrues\neach pay period and is available as it accrues.",
+            "policy_id": "POL-008",
+            "page": "",
+            "section": "Paid Time Off (PTO)",
+            "source": "data\\benefits_policies.md"
+          },
+          {
+            "text": "## POL-010 Parental Leave\n12 weeks of paid parental leave at 100% pay for the primary caregiver and 4 weeks\nfor the secondary caregiver, available for birth, adoption, or foster placement,\nwithin the first 12 months of the event. Runs concurrently with FMLA.",
+            "policy_id": "POL-010",
+            "page": "",
+            "section": "Parental Leave",
+            "source": "data\\benefits_policies.md"
+          },
+          {
+            "text": "## POL-009 Sick & Safe Leave\nSeparate from PTO: 6 paid sick days per year, front-loaded January 1. Unused sick\ndays do not roll over and are not paid out at termination.",
+            "policy_id": "POL-009",
+            "page": "",
+            "section": "Sick & Safe Leave",
+            "source": "data\\benefits_policies.md"
+          },
+          {
+            "text": "## POL-018 Jury Duty & Civic Leave\nEmployees called for jury duty or a subpoenaed court appearance receive paid\nleave for the duration of the service; the company pays the difference between\nthe court's stipend and the employee's normal pay - it does not pay full salary\nin addition to the stipend. Separately, employees receive up to 2 paid hours of\nvoting leave if the polls are not open for at least 3 consecutive hours before\nor after their scheduled shift.",
+            "policy_id": "POL-018",
+            "page": "",
+            "section": "Jury Duty & Civic Leave",
+            "source": "data\\benefits_policies.md"
+          },
+          {
+            "text": "## POL-016 Sabbatical Leave\nEmployees become eligible for an unpaid four-week sabbatical after five years\nof continuous full-time service, available once every seven years, intended for\npersonal or professional development. Sabbatical requests are reviewed by People Operations and approved only for\nemployees who have completed at least seven years of continuous full-time\nservice, subject to manager approval and business needs at the time of the\nrequest.",
+            "policy_id": "POL-016",
+            "page": "",
+            "section": "Sabbatical Leave",
+            "source": "data\\benefits_policies.md"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "Q14",
+      "query": "My grandfather passed away - how much bereavement leave do I get?",
+      "answer": "You are eligible for up to 2 paid days of bereavement leave for the death of a grandparent [POL-017].",
+      "cited_policy_ids": [
+        "POL-017"
+      ],
+      "retrieved_chunk_count": 5,
+      "retrieved_chunk_ids": [
+        "POL-017",
+        "POL-010",
+        "POL-019",
+        "POL-006",
+        "POL-016"
+      ],
+      "evaluation": {
+        "has_answer": true,
+        "has_citation": true,
+        "fallback_caught": false
+      },
+      "raw_response": {
+        "question": "My grandfather passed away - how much bereavement leave do I get?",
+        "answer": "You are eligible for up to 2 paid days of bereavement leave for the death of a grandparent [POL-017].",
+        "cited_policy_ids": [
+          "POL-017"
+        ],
+        "retrieved_chunks": [
+          {
+            "text": "## POL-017 Bereavement Leave\nUp to 5 paid days for the death of an immediate family member (spouse, child,\nparent, or sibling). Up to 2 paid days for extended family (grandparent,\nparent-in-law, or sibling-in-law). Requests are submitted to People Operations\nwithin 30 days of the event; no documentation is required for the first request\nin a calendar year.",
+            "policy_id": "POL-017",
+            "page": "",
+            "section": "Bereavement Leave",
+            "source": "data\\benefits_policies.md"
+          },
+          {
+            "text": "## POL-010 Parental Leave\n12 weeks of paid parental leave at 100% pay for the primary caregiver and 4 weeks\nfor the secondary caregiver, available for birth, adoption, or foster placement,\nwithin the first 12 months of the event. Runs concurrently with FMLA.",
+            "policy_id": "POL-010",
+            "page": "",
+            "section": "Parental Leave",
+            "source": "data\\benefits_policies.md"
+          },
+          {
+            "text": "## POL-019 Relocation Assistance\nEmployees relocating more than 50 miles for a company-initiated transfer receive\na lump-sum relocation assistance payment of up to $7,500, which is taxable\nincome. If the employee voluntarily terminates employment within 12 months of\nthe relocation, the assistance must be repaid on a pro-rated basis: one twelfth\nof the total is forgiven for each completed month of service after the\nrelocation date.",
+            "policy_id": "POL-019",
+            "page": "",
+            "section": "Relocation Assistance",
+            "source": "data\\benefits_policies.md"
+          },
+          {
+            "text": "## POL-006 Flexible Spending Account (FSA)\nHealthcare FSA allows up to $3,200/year pre-tax. Dependent Care FSA allows up to\n$5,000/year. Healthcare FSA funds are use-it-or-lose-it with a $640 carryover\ninto the next plan year; the carryover applies to the Healthcare FSA only. The\nDependent Care FSA has no carryover and no grace period - unused funds are\nforfeited at plan year end. You cannot enroll in a Healthcare FSA and an HSA in\nthe same year.",
+            "policy_id": "POL-006",
+            "page": "",
+            "section": "Flexible Spending Account (FSA)",
+            "source": "data\\benefits_policies.md"
+          },
+          {
+            "text": "## POL-016 Sabbatical Leave\nEmployees become eligible for an unpaid four-week sabbatical after five years\nof continuous full-time service, available once every seven years, intended for\npersonal or professional development. Sabbatical requests are reviewed by People Operations and approved only for\nemployees who have completed at least seven years of continuous full-time\nservice, subject to manager approval and business needs at the time of the\nrequest.",
+            "policy_id": "POL-016",
+            "page": "",
+            "section": "Sabbatical Leave",
+            "source": "data\\benefits_policies.md"
+          }
+        ]
+      }
+    },
+    {
+      "question_id": "Q15",
+      "query": "I'm on the Bronze HDHP - how much does the company put into my HSA for family coverage?",
+      "answer": "If you are on the Bronze HDHP with family coverage, the company contributes $1,500 per year to your Health Savings Account (HSA) [POL-005].",
+      "cited_policy_ids": [
+        "POL-005"
+      ],
+      "retrieved_chunk_count": 5,
+      "retrieved_chunk_ids": [
+        "POL-005",
+        "POL-003",
+        "POL-006",
+        "POL-004",
+        "POL-001"
+      ],
+      "evaluation": {
+        "has_answer": true,
+        "has_citation": true,
+        "fallback_caught": false
+      },
+      "raw_response": {
+        "question": "I'm on the Bronze HDHP - how much does the company put into my HSA for family coverage?",
+        "answer": "If you are on the Bronze HDHP with family coverage, the company contributes $1,500 per year to your Health Savings Account (HSA) [POL-005].",
+        "cited_policy_ids": [
+          "POL-005"
+        ],
+        "retrieved_chunks": [
+          {
+            "text": "## POL-005 Health Savings Account (HSA)\nAvailable only with the Bronze HDHP. Employer seeds $750 (individual) / $1,500\n(family) per year. 2025 IRS contribution limits apply. Funds roll over and are\nportable if you leave.",
+            "policy_id": "POL-005",
+            "page": "",
+            "section": "Health Savings Account (HSA)",
+            "source": "data\\benefits_policies.md"
+          },
+          {
+            "text": "## POL-003 Medical Plan Tiers\nThree medical tiers are offered:\n- Bronze HDHP: lowest premium, $3,000 individual deductible, HSA-eligible. - Silver PPO: mid premium, $1,500 individual deductible, broad network. - Gold PPO: highest premium, $500 individual deductible, lowest copays. Coverage tiers: Employee Only, Employee+Spouse, Employee+Children, Family.",
+            "policy_id": "POL-003",
+            "page": "",
+            "section": "Medical Plan Tiers",
+            "source": "data\\benefits_policies.md"
+          },
+          {
+            "text": "## POL-006 Flexible Spending Account (FSA)\nHealthcare FSA allows up to $3,200/year pre-tax. Dependent Care FSA allows up to\n$5,000/year. Healthcare FSA funds are use-it-or-lose-it with a $640 carryover\ninto the next plan year; the carryover applies to the Healthcare FSA only. The\nDependent Care FSA has no carryover and no grace period - unused funds are\nforfeited at plan year end. You cannot enroll in a Healthcare FSA and an HSA in\nthe same year.",
+            "policy_id": "POL-006",
+            "page": "",
+            "section": "Flexible Spending Account (FSA)",
+            "source": "data\\benefits_policies.md"
+          },
+          {
+            "text": "## POL-004 Dental & Vision\nDental covers 100% preventive, 80% basic, 50% major, with a $2,000 annual max. Orthodontia has a separate $1,500 lifetime max. Vision covers one exam per year\nand a $150 frame allowance every 24 months.",
+            "policy_id": "POL-004",
+            "page": "",
+            "section": "Dental & Vision",
+            "source": "data\\benefits_policies.md"
+          },
+          {
+            "text": "## POL-001 Benefits Eligibility\nFull-time employees (30+ scheduled hours/week) are eligible for all health and\nwelfare benefits on the first of the month following their hire date. Part-time\nemployees scheduled 20-29 hours/week are eligible for dental, vision, and the\nretirement plan only. Contractors and interns are not eligible.",
+            "policy_id": "POL-001",
+            "page": "",
+            "section": "Benefits Eligibility",
+            "source": "data\\benefits_policies.md"
+          }
+        ]
+      }
+    }
+  ]
+}

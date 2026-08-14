@@ -1,0 +1,6 @@
+portkey-ai
+openai
+chromadb
+pandas
+python-dotenv
+pypdf
